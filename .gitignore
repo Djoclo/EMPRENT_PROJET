@@ -1,0 +1,33 @@
+# Fichiers compilés
+bin/
+build/
+*.class
+
+# Fichiers JAR (garder bibliotheque.jar mais ignorer les autres)
+*.jar
+!bibliotheque.jar
+!plantuml.jar
+
+# Fichiers temporaires
+dist/
+*.log
+*.tmp
+
+# Fichiers IDE
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Fichiers de données de test (garder les CSV mais ignorer les logs)
+data/*.log
+data/emprunts.log
+

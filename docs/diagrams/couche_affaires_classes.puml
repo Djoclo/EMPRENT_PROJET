@@ -1,0 +1,45 @@
+@startuml
+class Catalogue {
+  - Map<Integer, Livre> livres
+  - Map<String, Exemplaire> exemplaires
+  + trouverLivre(id): Livre
+  + trouverExemplaire(rfid): Exemplaire
+  + marquerEmprunte(rfid)
+}
+
+class Livre {
+  - int id
+  - String titre
+  - String auteur
+  - String edition
+  - int annee
+  - int pages
+}
+
+class Exemplaire {
+  - String rfid
+  - int idLivre
+  - boolean disponible
+}
+
+class Usager {
+  - int id
+  - String nom
+  - String prenom
+  - List<Emprunt> emprunts
+  + peutEmprunter(): boolean
+}
+
+class Emprunt {
+  - int id
+  - String rfidExemplaire
+  - int idUsager
+  - LocalDate dateDebut
+  - LocalDate dateRetourPrevu
+}
+
+Catalogue "1" *-- "*" Livre
+Catalogue "1" *-- "*" Exemplaire
+Usager "1" o-- "*" Emprunt
+Emprunt --> Exemplaire
+@enduml

@@ -1,0 +1,27 @@
+@startuml
+actor Usager
+participant InterfaceUtilisateur as IU
+participant ControleurEmprunt as CE
+participant SystemeBibliotheque as SB
+participant Catalogue
+participant Exemplaire
+participant UsagerModel as UM
+
+Usager -> IU: demandeEmprunter(exemplaireId)
+IU -> CE: emprunter(exemplaireId, usagerId)
+CE -> SB: verifierUsager(usagerId)
+SB -> UM: trouverUsager(usagerId)
+UM --> SB: usager
+SB -> CE: usagerValide
+CE -> SB: verifierExemplaire(exemplaireId)
+SB -> Catalogue: trouverExemplaire(exemplaireId)
+Catalogue -> Exemplaire: obtenirEtat()
+Exemplaire --> Catalogue: disponible
+Catalogue --> SB: exemplaire
+SB -> CE: exemplaireValide
+CE -> SB: creerEmprunt(usager, exemplaire)
+SB -> Catalogue: marquerEmprunte(exemplaire)
+SB --> CE: empruntOK
+CE -> IU: confirmationEmprunt(emprunt)
+IU -> Usager: afficherConfirmation
+@enduml

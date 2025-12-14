@@ -1,0 +1,14 @@
+id,titre,auteur,edition,annee,pages
+1,Introduction à la programmation,Robert Bouchard,3ème,2020,450
+2,Analyse et conception orientée objet,Sylvie Moreau,2ème,2019,580
+3,Bases de données relationnelles,Pierre Desjardins,4ème,2021,620
+4,Algorithmes et structures de données,Marie-Claire Lévesque,1ère,2020,520
+5,Architecture des ordinateurs,Jean-François Dufour,5ème,2019,480
+6,Intelligence artificielle,Lucie Beaulieu,1ère,2022,680
+7,Sécurité informatique,André Côté,2ème,2021,550
+8,Réseaux et télécommunications,Isabelle Parent,3ème,2020,600
+9,Ingénierie logicielle,Thomas Gagnon,2ème,2021,590
+10,Gestion de projets informatiques,Valérie Dubois,1ère,2022,510
+
+
+

@@ -68,5 +68,3 @@ Le projet démontre une application rigoureuse des concepts de modélisation ori
 Il constitue un livrable académique complet, intégrant modélisation UML, implémentation Java et documentation.
 
 Pour plus de détails, consultez LIVRABLE_FINAL.md.
-
-

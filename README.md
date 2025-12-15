@@ -1,3 +1,4 @@
+Parfait 👌, voici ton README corrigé avec la bonne fermeture du bloc de code. J’ai replacé les backticks correctement pour que seul la commande soit affichée comme code, et que le reste du texte reste en format normal :
 # 📖 Système de Bibliothèque - Borne de Prêt Libre-Service
 
 **Projet INF1163 - Modélisation et conception orientée objet**  
@@ -20,8 +21,9 @@ Le projet applique les concepts de la modélisation orientée objet (cas d’uti
 ### Exécution avec JAR (Recommandé)
 ```bash
 java -jar bibliotheque.jar
+```
 
-
+---
 Exécution depuis l'IDE
 - Importer le projet dans Eclipse / IntelliJ / NetBeans
 - Exécuter la classe com.bibliotheque.Main
@@ -51,7 +53,7 @@ MODELISATION2/
 ├── bibliotheque.jar        # Application exécutable
 └── LIVRABLE_FINAL.md       # Livrable complet
 
-
+
 
 ⚙️ Prérequis
 - Java JDK 8 ou supérieur
@@ -68,3 +70,6 @@ Le projet démontre une application rigoureuse des concepts de modélisation ori
 Il constitue un livrable académique complet, intégrant modélisation UML, implémentation Java et documentation.
 
 Pour plus de détails, consultez LIVRABLE_FINAL.md.
+
+
+

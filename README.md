@@ -24,7 +24,7 @@ java -jar bibliotheque.jar
 
 ---
 Exécution depuis l'IDE
-- Importer le projet dans Eclipse / IntelliJ / NetBeans
+- Importer le projet dans Eclipse
 - Exécuter la classe com.bibliotheque.Main
 
 👤 Comptes de test

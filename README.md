@@ -1,4 +1,3 @@
-Voici une version fusionnée et enrichie de ton README, intégrant les éléments de ton rapport et ce que tu avais déjà rédigé. Elle est structurée pour être claire, professionnelle et directement utilisable sur ton dépôt GitHub :
 # 📖 Système de Bibliothèque - Borne de Prêt Libre-Service
 
 **Projet INF1163 - Modélisation et conception orientée objet**  

@@ -21,10 +21,9 @@ Le projet applique les concepts de la modélisation orientée objet (cas d’uti
 ```bash
 java -jar bibliotheque.jar
 ```
-
----
+
 Exécution depuis l'IDE
-- Importer le projet dans Eclipse
+- Importer le projet dans Eclipse / IntelliJ / NetBeans
 - Exécuter la classe com.bibliotheque.Main
 
 👤 Comptes de test
@@ -45,14 +44,15 @@ Consulter LIVRABLE_FINAL.md pour :
 - Contribution des membres de l’équipe
 
 📁 Structure du projet
-MODELISATION2/
+```
+PROJET_EMPRENT/
 ├── src/                    # Code source Java
 ├── data/                   # Fichiers CSV (catalogue, usagers)
 ├── docs/                   # Diagrammes UML
 ├── bibliotheque.jar        # Application exécutable
 └── LIVRABLE_FINAL.md       # Livrable complet
+```
 
-
 
 ⚙️ Prérequis
 - Java JDK 8 ou supérieur
@@ -71,4 +71,3 @@ Il constitue un livrable académique complet, intégrant modélisation UML, impl
 Pour plus de détails, consultez LIVRABLE_FINAL.md.
 
 
-

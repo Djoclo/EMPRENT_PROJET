@@ -1,4 +1,3 @@
-Parfait 👌, voici ton README corrigé avec la bonne fermeture du bloc de code. J’ai replacé les backticks correctement pour que seul la commande soit affichée comme code, et que le reste du texte reste en format normal :
 # 📖 Système de Bibliothèque - Borne de Prêt Libre-Service
 
 **Projet INF1163 - Modélisation et conception orientée objet**  
